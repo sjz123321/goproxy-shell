@@ -28,4 +28,4 @@ v0.1.0 demo
 # 界面展示
 
 
-(/pic/main.jpg) 
+!(/pic/main.jpg) 
