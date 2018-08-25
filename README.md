@@ -27,5 +27,5 @@ v0.1.0 demo
 
 # 界面展示
 
-
-!(/pic/main.jpg) 
+##### 脚本主界面
+![1.1](/pic/main.jpg) 
