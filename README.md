@@ -2,7 +2,7 @@
 
 goproxy服务端部署脚本
 ### 使用方法
-`git clone https://github.com/sjz123321/goproxy-shell.git && cp ./goproxy-shell/run_goproxy.sh /usr/bin && cd /usr/bin && chmod +x run_goproxy.sh && run_goproxy.sh`
+`wget --no-check-certificate https://github.com/sjz123321/goproxy-shell/releases/download/v0.1.0/install.sh && bash `
 
 之后使用在命令行中输入 `run_goproxy.sh` 即可
 
