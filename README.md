@@ -26,4 +26,6 @@ v0.1.0 demo
 下一步会逐步完善这些功能
 
 # 界面展示
-(/pic/main.png)
+
+
+![3.2](/pic/main.png) 
