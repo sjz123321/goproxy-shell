@@ -58,6 +58,14 @@ case $choice in
          cd $path
 		 rm -f proxy.crt proxy.key
          proxy keygen -C proxy 
+		 echo "是否现在就回传证书 （默认为回传）"
+		 echo "1.是   2.否"
+		 read -t 15 tempp
+		 tempp=${tempp:-1}
+		 if [ $tempp -eq "1" ] ; then
+		     sz proxy.crt proxy.key
+		 fi
+		 
      fi
      echo "***************************************"
      echo "     请输入需要使用的服务器端口号      "
@@ -315,7 +323,14 @@ case $choice in
 	 if [ $tempp -eq "1" ] ; then
          cd $path
 		 rm -f proxy.crt proxy.key
-         proxy keygen -C proxy 
+         proxy keygen -C proxy
+		 echo "是否现在就回传证书 （默认为回传）"
+		 echo "1.是   2.否"
+		 read -t 15 tempp
+		 tempp=${tempp:-1}
+		 if [ $tempp -eq "1" ] ; then
+		     sz proxy.crt proxy.key
+		 fi
      fi
      echo "***************************************"
      echo "     请输入需要使用的服务器端口号      "
