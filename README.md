@@ -24,3 +24,6 @@ v0.1.0 demo
 4.tls证书回传
 
 下一步会逐步完善这些功能
+
+# 界面展示
+<img src="https://github.com/sjz123321/goproxy-shell/edit/master/pic/main.jpg?raw=true" width="200"/>  
