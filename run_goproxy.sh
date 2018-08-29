@@ -41,7 +41,7 @@ function run_proxy()
 
 
 echo "        欢迎使用goproxy配置脚本        "
-echo "***************************************"
+echo "************版本号V0.2.1**************"
 echo "      0.安装/更新goproxy及脚本（仅64位系统）"
 echo "      1.打开http-tcp代理"
 echo "      2.打开http-kcp代理"
