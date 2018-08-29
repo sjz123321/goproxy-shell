@@ -60,6 +60,7 @@ case $choice in
    git clone https://github.com/sjz123321/goproxy-shell.git /root/goproxy-shell/
    rm -f /usr/bin/run_goproxy.sh
    cp /root/goproxy-shell/run_goproxy.sh /usr/bin
+   chmod +x /usr/bin/run_goproxy.sh
    touch /etc/auto_run_proxy.sh
    chmod +x /etc/auto_run_proxy.sh
    echo "proxy 安装成功"
